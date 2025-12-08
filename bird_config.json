@@ -1,0 +1,51 @@
+{
+    "game_settings": {
+        "window_width": 600,
+        "window_height": 500,
+        "window_title": "Flappy Bird",
+        "fps": 60,
+        "background_color": [135, 206, 235],
+        "font_name": null,
+        "font_size": 36,
+        "font_color": [255, 255, 255]
+    },
+
+    "bird_settings": {
+        "start_x": 100,
+        "start_y": 250,
+        "width": 60,
+        "height": 35,
+        "gravity": 0.4,
+        "jump_strength": -6,
+        "image_path": "bird.png",
+        "min_y": 0,
+        "max_y": 500
+    },
+
+    "wall_settings": {
+        "width": 100,
+        "height": 500,
+        "speed": 2,
+        "spawn_interval": 1500,
+        "min_gap": 180,
+        "max_gap": 220,
+        "min_height": 100,
+        "max_height": 400,
+        "image_path": "wall.png"
+    },
+
+    "colors": {
+        "white": [255, 255, 255],
+        "black": [0, 0, 0],
+        "red": [255, 0, 0],
+        "green": [0, 255, 0],
+        "blue": [0, 0, 255],
+        "game_over": [255, 0, 0]
+    },
+
+    "texts": {
+        "score_prefix": "Score: ",
+        "game_over": "GAME OVER",
+        "restart_instruction": "Press SPACE to restart"
+    }
+}
